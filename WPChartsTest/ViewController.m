@@ -89,6 +89,7 @@
 
 - (ChartData *)setData{
     LineChartData *data= [[LineChartData alloc] initWithDataSets:@[]];
+    
     return data;
 }
 
