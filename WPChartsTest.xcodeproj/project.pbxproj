@@ -1,0 +1,649 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76DE953C1F0E26F40063EA33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE953B1F0E26F40063EA33 /* main.m */; };
+		76DE953F1F0E26F40063EA33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE953E1F0E26F40063EA33 /* AppDelegate.m */; };
+		76DE95421F0E26F40063EA33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE95411F0E26F40063EA33 /* ViewController.m */; };
+		76DE95451F0E26F40063EA33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DE95431F0E26F40063EA33 /* Main.storyboard */; };
+		76DE95471F0E26F40063EA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76DE95461F0E26F40063EA33 /* Assets.xcassets */; };
+		76DE954A1F0E26F40063EA33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DE95481F0E26F40063EA33 /* LaunchScreen.storyboard */; };
+		76DE95551F0E26F40063EA33 /* WPChartsTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE95541F0E26F40063EA33 /* WPChartsTestTests.m */; };
+		76DE95601F0E26F40063EA33 /* WPChartsTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76DE955F1F0E26F40063EA33 /* WPChartsTestUITests.m */; };
+		76DE95731F0E36CA0063EA33 /* Pods_WPChartsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472037D97C94FB0F7B485AF0 /* Pods_WPChartsTest.framework */; };
+		76DE95741F0E36CA0063EA33 /* Pods_WPChartsTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 472037D97C94FB0F7B485AF0 /* Pods_WPChartsTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C84C05135562762BFBBBEBE3 /* Pods_WPChartsTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472037D97C94FB0F7B485AF0 /* Pods_WPChartsTest.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76DE95511F0E26F40063EA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DE952F1F0E26F40063EA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DE95361F0E26F40063EA33;
+			remoteInfo = WPChartsTest;
+		};
+		76DE955C1F0E26F40063EA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76DE952F1F0E26F40063EA33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76DE95361F0E26F40063EA33;
+			remoteInfo = WPChartsTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		76DE95751F0E36CA0063EA33 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				76DE95741F0E36CA0063EA33 /* Pods_WPChartsTest.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		23573E51F4B89492D9035FCB /* Pods-WPChartsTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPChartsTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WPChartsTest/Pods-WPChartsTest.debug.xcconfig"; sourceTree = "<group>"; };
+		472037D97C94FB0F7B485AF0 /* Pods_WPChartsTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WPChartsTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DE95371F0E26F40063EA33 /* WPChartsTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WPChartsTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DE953B1F0E26F40063EA33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76DE953D1F0E26F40063EA33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76DE953E1F0E26F40063EA33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76DE95401F0E26F40063EA33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76DE95411F0E26F40063EA33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76DE95441F0E26F40063EA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76DE95461F0E26F40063EA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76DE95491F0E26F40063EA33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76DE954B1F0E26F40063EA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DE95501F0E26F40063EA33 /* WPChartsTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPChartsTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DE95541F0E26F40063EA33 /* WPChartsTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPChartsTestTests.m; sourceTree = "<group>"; };
+		76DE95561F0E26F40063EA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DE955B1F0E26F40063EA33 /* WPChartsTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WPChartsTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76DE955F1F0E26F40063EA33 /* WPChartsTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPChartsTestUITests.m; sourceTree = "<group>"; };
+		76DE95611F0E26F40063EA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DE95701F0E36AA0063EA33 /* WPChartsTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WPChartsTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		8642CC5B44EF263BC0D30BB0 /* Pods-WPChartsTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WPChartsTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WPChartsTest/Pods-WPChartsTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76DE95341F0E26F40063EA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DE95731F0E36CA0063EA33 /* Pods_WPChartsTest.framework in Frameworks */,
+				C84C05135562762BFBBBEBE3 /* Pods_WPChartsTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE954D1F0E26F40063EA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE95581F0E26F40063EA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		258ABEA11E2C7EC897E63D1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				472037D97C94FB0F7B485AF0 /* Pods_WPChartsTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		76DE952E1F0E26F40063EA33 = {
+			isa = PBXGroup;
+			children = (
+				76DE95391F0E26F40063EA33 /* WPChartsTest */,
+				76DE95531F0E26F40063EA33 /* WPChartsTestTests */,
+				76DE955E1F0E26F40063EA33 /* WPChartsTestUITests */,
+				76DE95381F0E26F40063EA33 /* Products */,
+				9AE8DF3B8E00B9D9A9691665 /* Pods */,
+				258ABEA11E2C7EC897E63D1E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76DE95381F0E26F40063EA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76DE95371F0E26F40063EA33 /* WPChartsTest.app */,
+				76DE95501F0E26F40063EA33 /* WPChartsTestTests.xctest */,
+				76DE955B1F0E26F40063EA33 /* WPChartsTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76DE95391F0E26F40063EA33 /* WPChartsTest */ = {
+			isa = PBXGroup;
+			children = (
+				76DE953D1F0E26F40063EA33 /* AppDelegate.h */,
+				76DE953E1F0E26F40063EA33 /* AppDelegate.m */,
+				76DE95401F0E26F40063EA33 /* ViewController.h */,
+				76DE95411F0E26F40063EA33 /* ViewController.m */,
+				76DE95431F0E26F40063EA33 /* Main.storyboard */,
+				76DE95461F0E26F40063EA33 /* Assets.xcassets */,
+				76DE95481F0E26F40063EA33 /* LaunchScreen.storyboard */,
+				76DE954B1F0E26F40063EA33 /* Info.plist */,
+				76DE953A1F0E26F40063EA33 /* Supporting Files */,
+				76DE95701F0E36AA0063EA33 /* WPChartsTest-Bridging-Header.h */,
+			);
+			path = WPChartsTest;
+			sourceTree = "<group>";
+		};
+		76DE953A1F0E26F40063EA33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76DE953B1F0E26F40063EA33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76DE95531F0E26F40063EA33 /* WPChartsTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				76DE95541F0E26F40063EA33 /* WPChartsTestTests.m */,
+				76DE95561F0E26F40063EA33 /* Info.plist */,
+			);
+			path = WPChartsTestTests;
+			sourceTree = "<group>";
+		};
+		76DE955E1F0E26F40063EA33 /* WPChartsTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76DE955F1F0E26F40063EA33 /* WPChartsTestUITests.m */,
+				76DE95611F0E26F40063EA33 /* Info.plist */,
+			);
+			path = WPChartsTestUITests;
+			sourceTree = "<group>";
+		};
+		9AE8DF3B8E00B9D9A9691665 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				23573E51F4B89492D9035FCB /* Pods-WPChartsTest.debug.xcconfig */,
+				8642CC5B44EF263BC0D30BB0 /* Pods-WPChartsTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76DE95361F0E26F40063EA33 /* WPChartsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DE95641F0E26F40063EA33 /* Build configuration list for PBXNativeTarget "WPChartsTest" */;
+			buildPhases = (
+				FD42E974B560B6160947CBB1 /* [CP] Check Pods Manifest.lock */,
+				76DE95331F0E26F40063EA33 /* Sources */,
+				76DE95341F0E26F40063EA33 /* Frameworks */,
+				76DE95351F0E26F40063EA33 /* Resources */,
+				233695769A47E925592AF8D9 /* [CP] Embed Pods Frameworks */,
+				85B52156A51FF2E7C10EC533 /* [CP] Copy Pods Resources */,
+				76DE95751F0E36CA0063EA33 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WPChartsTest;
+			productName = WPChartsTest;
+			productReference = 76DE95371F0E26F40063EA33 /* WPChartsTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76DE954F1F0E26F40063EA33 /* WPChartsTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DE95671F0E26F40063EA33 /* Build configuration list for PBXNativeTarget "WPChartsTestTests" */;
+			buildPhases = (
+				76DE954C1F0E26F40063EA33 /* Sources */,
+				76DE954D1F0E26F40063EA33 /* Frameworks */,
+				76DE954E1F0E26F40063EA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DE95521F0E26F40063EA33 /* PBXTargetDependency */,
+			);
+			name = WPChartsTestTests;
+			productName = WPChartsTestTests;
+			productReference = 76DE95501F0E26F40063EA33 /* WPChartsTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76DE955A1F0E26F40063EA33 /* WPChartsTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76DE956A1F0E26F40063EA33 /* Build configuration list for PBXNativeTarget "WPChartsTestUITests" */;
+			buildPhases = (
+				76DE95571F0E26F40063EA33 /* Sources */,
+				76DE95581F0E26F40063EA33 /* Frameworks */,
+				76DE95591F0E26F40063EA33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DE955D1F0E26F40063EA33 /* PBXTargetDependency */,
+			);
+			name = WPChartsTestUITests;
+			productName = WPChartsTestUITests;
+			productReference = 76DE955B1F0E26F40063EA33 /* WPChartsTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76DE952F1F0E26F40063EA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = wupeng;
+				TargetAttributes = {
+					76DE95361F0E26F40063EA33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 464QMA68M2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					76DE954F1F0E26F40063EA33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 464QMA68M2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76DE95361F0E26F40063EA33;
+					};
+					76DE955A1F0E26F40063EA33 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 464QMA68M2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76DE95361F0E26F40063EA33;
+					};
+				};
+			};
+			buildConfigurationList = 76DE95321F0E26F40063EA33 /* Build configuration list for PBXProject "WPChartsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76DE952E1F0E26F40063EA33;
+			productRefGroup = 76DE95381F0E26F40063EA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76DE95361F0E26F40063EA33 /* WPChartsTest */,
+				76DE954F1F0E26F40063EA33 /* WPChartsTestTests */,
+				76DE955A1F0E26F40063EA33 /* WPChartsTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76DE95351F0E26F40063EA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DE954A1F0E26F40063EA33 /* LaunchScreen.storyboard in Resources */,
+				76DE95471F0E26F40063EA33 /* Assets.xcassets in Resources */,
+				76DE95451F0E26F40063EA33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE954E1F0E26F40063EA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE95591F0E26F40063EA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233695769A47E925592AF8D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WPChartsTest/Pods-WPChartsTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85B52156A51FF2E7C10EC533 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WPChartsTest/Pods-WPChartsTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD42E974B560B6160947CBB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76DE95331F0E26F40063EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DE95421F0E26F40063EA33 /* ViewController.m in Sources */,
+				76DE953F1F0E26F40063EA33 /* AppDelegate.m in Sources */,
+				76DE953C1F0E26F40063EA33 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE954C1F0E26F40063EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DE95551F0E26F40063EA33 /* WPChartsTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76DE95571F0E26F40063EA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DE95601F0E26F40063EA33 /* WPChartsTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DE95521F0E26F40063EA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DE95361F0E26F40063EA33 /* WPChartsTest */;
+			targetProxy = 76DE95511F0E26F40063EA33 /* PBXContainerItemProxy */;
+		};
+		76DE955D1F0E26F40063EA33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76DE95361F0E26F40063EA33 /* WPChartsTest */;
+			targetProxy = 76DE955C1F0E26F40063EA33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76DE95431F0E26F40063EA33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DE95441F0E26F40063EA33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76DE95481F0E26F40063EA33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76DE95491F0E26F40063EA33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76DE95621F0E26F40063EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76DE95631F0E26F40063EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76DE95651F0E26F40063EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23573E51F4B89492D9035FCB /* Pods-WPChartsTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPChartsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPChartsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WPChartsTest/WPChartsTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		76DE95661F0E26F40063EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8642CC5B44EF263BC0D30BB0 /* Pods-WPChartsTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPChartsTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPChartsTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WPChartsTest/WPChartsTest-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		76DE95681F0E26F40063EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPChartsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPChartsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPChartsTest.app/WPChartsTest";
+			};
+			name = Debug;
+		};
+		76DE95691F0E26F40063EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPChartsTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPChartsTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WPChartsTest.app/WPChartsTest";
+			};
+			name = Release;
+		};
+		76DE956B1F0E26F40063EA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPChartsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPChartsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPChartsTest;
+			};
+			name = Debug;
+		};
+		76DE956C1F0E26F40063EA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 464QMA68M2;
+				INFOPLIST_FILE = WPChartsTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dfzq.WPChartsTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WPChartsTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76DE95321F0E26F40063EA33 /* Build configuration list for PBXProject "WPChartsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DE95621F0E26F40063EA33 /* Debug */,
+				76DE95631F0E26F40063EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DE95641F0E26F40063EA33 /* Build configuration list for PBXNativeTarget "WPChartsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DE95651F0E26F40063EA33 /* Debug */,
+				76DE95661F0E26F40063EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DE95671F0E26F40063EA33 /* Build configuration list for PBXNativeTarget "WPChartsTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DE95681F0E26F40063EA33 /* Debug */,
+				76DE95691F0E26F40063EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76DE956A1F0E26F40063EA33 /* Build configuration list for PBXNativeTarget "WPChartsTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76DE956B1F0E26F40063EA33 /* Debug */,
+				76DE956C1F0E26F40063EA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76DE952F1F0E26F40063EA33 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_WPChartsTest {
+  umbrella header "Pods-WPChartsTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
