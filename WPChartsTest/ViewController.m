@@ -84,7 +84,7 @@
     self.lineView.data = [self setData];
     [self.lineView animateWithXAxisDuration:1];//设置x轴动画
     //qwe
-    
+    //asd
 }
 
 - (ChartData *)setData{
