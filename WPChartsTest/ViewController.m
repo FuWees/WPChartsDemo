@@ -85,7 +85,6 @@
     [self.lineView animateWithXAxisDuration:1];//设置x轴动画
     
     //123
-    //234
     
     
 }
