@@ -30,6 +30,7 @@
     lineView.delegate = self;
     self.lineView = lineView;
     [self.view addSubview:lineView];
+    
     //基本样式
     lineView.backgroundColor = [UIColor whiteColor];
     lineView.noDataText = @"暂无数据";
