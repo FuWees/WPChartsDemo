@@ -26,6 +26,7 @@
     
     self.view.backgroundColor = [UIColor grayColor];
     NSLog(@"haha");
+    NSLog(@"分支 test2");
     //折线图
     LineChartView *lineView = [[LineChartView alloc]initWithFrame:CGRectMake(20, 20, kScreenWidth - 20*2, kScreenHeight - 80)];
     lineView.delegate = self;
