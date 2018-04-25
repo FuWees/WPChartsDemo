@@ -14,6 +14,7 @@
 
 @interface ViewController ()<ChartViewDelegate>
 
+
 @property (nonatomic, strong) LineChartView *lineView;
 
 @end
