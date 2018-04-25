@@ -14,6 +14,7 @@
 
 @interface ViewController ()<ChartViewDelegate>
 
+
 @property (nonatomic, strong) LineChartView *lineView;
 
 @end
@@ -24,7 +25,7 @@
     [super viewDidLoad];
     
     self.view.backgroundColor = [UIColor grayColor];
-    
+    NSLog(@"haha");
     //折线图
     LineChartView *lineView = [[LineChartView alloc]initWithFrame:CGRectMake(20, 20, kScreenWidth - 20*2, kScreenHeight - 80)];
     lineView.delegate = self;
